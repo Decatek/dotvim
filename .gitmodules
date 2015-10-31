@@ -7,3 +7,6 @@
 [submodule "bundle/sensible"]
 	path = bundle/sensible
 	url = https://github.com/tpope/vim-sensible.git
+[submodule "bundle/NERDtree"]
+	path = bundle/NERDtree
+	url = https://github.com/scrooloose/nerdtree.git
