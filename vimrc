@@ -1,13 +1,14 @@
 """""""""""""""""""""""""
 "       PATHOGEN        "
 """""""""""""""""""""""""
-
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
 
 set list
-set expandtab
+set noexpandtab
+
+set t_Co=256
 
 """""""""""""""""""""""""
 " Custom settings       "
