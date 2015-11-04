@@ -16,3 +16,6 @@
 [submodule "bundle/commentary"]
 	path = bundle/commentary
 	url = https://github.com/tpope/vim-commentary.git
+[submodule "vim-scriptease"]
+	path = vim-scriptease
+	url = https://www.github.com/tpope/vim-scriptease.git
