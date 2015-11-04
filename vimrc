@@ -9,7 +9,7 @@ set shiftwidth=4
 set tabstop=4
 set list
 set noexpandtab
-set number
+set relativenumber
 set t_Co=256
 
 """""""""""""""""""""""""

@@ -19,3 +19,6 @@
 [submodule "vim-scriptease"]
 	path = vim-scriptease
 	url = https://www.github.com/tpope/vim-scriptease.git
+[submodule "bundle/quicktask"]
+	path = bundle/quicktask
+	url = https://github.com/aaronbieber/vim-quicktask.git
