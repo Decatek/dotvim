@@ -1,2 +1,9 @@
 [include]
 	path = "~/.git_credentials"
+
+[alias]
+	st = status
+	cm = commit -m
+	ch = checkout
+	subinit = submodule init
+	subupdate = submodule update
