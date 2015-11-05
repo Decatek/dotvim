@@ -5,4 +5,5 @@ After cloning this repo in ~/.vim, run the following commands to link .vimrc and
 ```
 ln -s ~/.vim/vimrc ~/.vimrc
 ln -s ~/.vim/gvimrc ~/.gvimrc
+ln -s ~/.vim/.gitconfig ~/.gitconfig
 ```
