@@ -1,10 +1,10 @@
-let mapleader="`"
+let maplocalleader="`"
 
 """""""""""""""""
 " vimrc editing "
 """""""""""""""""
-nnoremap <leader>ev :vsplit ~/.vim/vimrc<cr>
-nnoremap <leader>sv :source $myvimrc<cr>
+nnoremap <localleader>ev :vsplit ~/.vim/vimrc<cr>
+nnoremap <localleader>sv :source $myvimrc<cr>
 
 """"""""""""""""""
 " Tab navigation "
@@ -29,11 +29,5 @@ nnoremap + ddkP
 """""""""""""""""""""""""""""""""
 " Turn word to Upper/Lowercase	"
 """""""""""""""""""""""""""""""""
-nnoremap <leader>u viwU
-nnoremap <leader>U viwu
-
-""""""""""""
-" Surround "
-""""""""""""
-nnoremap <leader>" viw<esc>a"<esc>hbi"<esc>lel
-nnoremap <leader>( viw<esc>a)<esc>hbi(<esc>lel
+nnoremap <localleader>u viwU
+nnoremap <localleader>U viwu
