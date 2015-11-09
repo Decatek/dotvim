@@ -1,5 +1,10 @@
 let maplocalleader="`"
 
+nnoremap <left> <NOP>
+nnoremap <right> <NOP>
+nnoremap <up> <NOP>
+nnoremap <down> <NOP>
+
 """""""""""""""""
 " vimrc editing "
 """""""""""""""""
