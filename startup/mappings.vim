@@ -36,3 +36,5 @@ nnoremap + ddkP
 """""""""""""""""""""""""""""""""
 nnoremap <localleader>u viwU
 nnoremap <localleader>U viwu
+
+nnoremap    <F2> :<C-U>setlocal lcs=tab:>-,trail:-,eol:$ list! list? <CR>
