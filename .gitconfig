@@ -9,6 +9,3 @@
 	subupdate = submodule update
 	ps = push -u origin master
 
-[user]
-	name = "decatek"
-	email = "giacomo.camporini@gmail.com"
