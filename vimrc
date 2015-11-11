@@ -1,4 +1,4 @@
-""""""""""""""""""""""""
+"""""""""""""""""""""""
 "       PATHOGEN        "
 """""""""""""""""""""""""
 execute pathogen#infect()
@@ -19,3 +19,5 @@ set t_Co=256
 source ~/.vim/startup/colorscheme.vim
 source ~/.vim/startup/mappings.vim
 source ~/.vim/startup/flagship.vim
+
+:autocmd BufNewFile,BufRead /project/* vaxe#ProjectHxml("/project/project.hxml")

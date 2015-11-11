@@ -22,3 +22,6 @@
 [submodule "bundle/scriptease"]
 	path = bundle/scriptease
 	url = https://www.github.com/tpope/vim-scriptease.git
+[submodule "bundle/vaxe"]
+	path = bundle/vaxe
+	url = https://github.com/jdonaldson/vaxe.git
