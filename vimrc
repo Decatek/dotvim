@@ -21,3 +21,6 @@ source ~/.vim/startup/mappings.vim
 source ~/.vim/startup/flagship.vim
 
 :autocmd BufNewFile,BufRead /project/* vaxe#ProjectHxml("/project/project.hxml")
+
+" Treat all .handlebars files as html "
+au BufNewFile,BufRead *.handlebars set filetype=html
