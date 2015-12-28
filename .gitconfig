@@ -9,3 +9,5 @@
 	subupdate = submodule update
 	ps = push -u origin master
 
+[core]
+	editor = vim
