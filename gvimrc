@@ -26,7 +26,3 @@ autocmd vimenter * NERDTree
 
 " Treat all .handlebars files as html "
 au BufNewFile,BufRead *.handlebars set filetype=html
-
-" Enables JSDoc syntax highlight (vim-javascript) "
-let g:javascript_plugin_jsdoc = 1
-let g:javascript_conceal_function = "ƒ"
