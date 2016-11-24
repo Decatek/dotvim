@@ -8,8 +8,13 @@ nnoremap <down> <NOP>
 """""""""""""""""
 " vimrc editing "
 """""""""""""""""
-nnoremap <localleader>ev :vsplit ~/.vim/vimrc<cr>
-nnoremap <localleader>sv :source $myvimrc<cr>
+if &term ==# "builtin_gui"
+  nnoremap <localleader>ev :vsplit $MYGVIMRC<cr>
+  nnoremap <localleader>sv :source $MYGVIMRC<cr>
+else
+  nnoremap <localleader>ev :vsplit $MYVIMRC<cr>
+  nnoremap <localleader>sv :source $MYVIMRC<cr>
+endif
 
 """"""""""""""""""
 " Tab navigation "
@@ -20,10 +25,10 @@ nnoremap <C-S-Tab> :tabprevious<CR>
 """""""""""""""""""""
 " Window Navigation "
 """""""""""""""""""""
-nmap <silent> <A-Up> :wincmd k<CR>
-nmap <silent> <A-Down> :wincmd j<CR>
-nmap <silent> <A-Left> :wincmd h<CR>
-nmap <silent> <A-Right> :wincmd l<CR>
+nmap <silent> <C-k> :wincmd k<CR>
+nmap <silent> <C-j> :wincmd j<CR>
+nmap <silent> <C-h> :wincmd h<CR>
+nmap <silent> <C-l> :wincmd l<CR>
 
 """""""""""""""""""""
 " Move line up/down "
@@ -37,4 +42,7 @@ nnoremap + ddkP
 nnoremap <localleader>u viwU
 nnoremap <localleader>U viwu
 
-nnoremap    <F2> :<C-U>setlocal lcs=tab:>-,trail:-,eol:$ list! list? <CR>
+nnoremap <F2> :<C-U>setlocal lcs=tab:>-,trail:-,eol:$ list! list? <CR>
+
+" Toggle NERDTree "
+nnoremap <C-q> :NERDTreeToggle<CR>
