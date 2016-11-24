@@ -16,9 +16,9 @@ set t_Co=256
 """""""""""""""""""""""""
 " Custom settings       "
 """""""""""""""""""""""""
-source ~/.vim/startup/colorscheme.vim
-source ~/.vim/startup/mappings.vim
-source ~/.vim/startup/flagship.vim
+source $HOME/.vim/startup/colorscheme.vim
+source $HOME/.vim/startup/mappings.vim
+source $HOME/.vim/startup/flagship.vim
 
 :autocmd BufNewFile,BufRead /project/* vaxe#ProjectHxml("/project/project.hxml")
 

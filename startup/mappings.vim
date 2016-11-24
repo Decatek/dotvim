@@ -9,11 +9,11 @@ nnoremap <down> <NOP>
 " vimrc editing "
 """""""""""""""""
 if &term ==# "builtin_gui"
-  nnoremap <localleader>ev :vsplit $MYGVIMRC<cr>
-  nnoremap <localleader>sv :source $MYGVIMRC<cr>
+  nnoremap <localleader>ev :vsplit $MYGVIMRC<CR>
+  nnoremap <localleader>sv :source $MYGVIMRC<CR>
 else
-  nnoremap <localleader>ev :vsplit $MYVIMRC<cr>
-  nnoremap <localleader>sv :source $MYVIMRC<cr>
+  nnoremap <localleader>ev :vsplit $MYVIMRC<CR>
+  nnoremap <localleader>sv :source $MYVIMRC<CR>
 endif
 
 """"""""""""""""""
@@ -42,7 +42,5 @@ nnoremap + ddkP
 nnoremap <localleader>u viwU
 nnoremap <localleader>U viwu
 
-nnoremap <F2> :<C-U>setlocal lcs=tab:>-,trail:-,eol:$ list! list? <CR>
-
 " Toggle NERDTree "
-nnoremap <C-q> :NERDTreeToggle<CR>
+nnoremap <C-a> :NERDTreeToggle<CR>
