@@ -44,3 +44,6 @@ nnoremap <localleader>U viwu
 
 " Toggle NERDTree "
 nnoremap <C-a> :NERDTreeToggle<CR>
+
+" JSDOC "
+nmap <silent> <C-l> <Plug>(jsdoc)
