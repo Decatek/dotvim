@@ -25,12 +25,12 @@
 [submodule "bundle/vaxe"]
 	path = bundle/vaxe
 	url = https://github.com/jdonaldson/vaxe.git
-[submodule "bundle/kerboscript"]
-	path = bundle/kerboscript
-	url = https://github.com/tomvanderlee/vim-kerboscript.git
 [submodule "bundle/jsdoc"]
 	path = bundle/jsdoc
 	url = https://github.com/heavenshell/vim-jsdoc.git
 [submodule "bundle/surround"]
 	path = bundle/surround
 	url = https://github.com/tpope/vim-surround.git
+[submodule "bundle/vim-arduino"]
+	path = bundle/vim-arduino
+	url = https://github.com/stevearc/vim-arduino
