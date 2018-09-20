@@ -34,3 +34,6 @@
 [submodule "bundle/vim-arduino"]
 	path = bundle/vim-arduino
 	url = https://github.com/stevearc/vim-arduino
+[submodule "bundle/vim-latex"]
+	path = bundle/vim-latex
+	url = git@github.com:vim-latex/vim-latex.git
