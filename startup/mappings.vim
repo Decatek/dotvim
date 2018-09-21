@@ -46,4 +46,5 @@ nnoremap <localleader>U viwu
 nnoremap <C-a> :NERDTreeToggle<CR>
 
 " JSDOC "
-nmap <silent> <C-l> <Plug>(jsdoc)
+autocmd FileType javascript nmap <silent> <C-d> <Plug>(jsdoc)
+
