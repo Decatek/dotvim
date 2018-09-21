@@ -54,3 +54,12 @@ let g:UltiSnipsEditSplit="vertical"
 let g:vaxe_enable_airline_defaults = 0
 :command Bfly execute "!butterfly"
 
+" Color line at 80 chars
+augroup vimrc_autocmds
+  autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
+  autocmd BufEnter * match OverLength /\%80v.*/
+augroup END
+
+set wrap
+set textwidth=80
+set colorcolumn=80
