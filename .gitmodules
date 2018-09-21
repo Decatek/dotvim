@@ -34,9 +34,6 @@
 [submodule "bundle/vim-arduino"]
 	path = bundle/vim-arduino
 	url = https://github.com/stevearc/vim-arduino
-[submodule "bundle/vim-latex"]
-	path = bundle/vim-latex
-	url = git@github.com:vim-latex/vim-latex.git
 [submodule "bundle/YouCompleteMe"]
 	path = bundle/YouCompleteMe
 	url = git@github.com:Valloric/YouCompleteMe.git
@@ -61,3 +58,12 @@
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim
+[submodule "bundle/ultisnips"]
+	path = bundle/ultisnips
+	url = https://github.com/SirVer/ultisnips
+[submodule "bundle/vim-snippets"]
+	path = bundle/vim-snippets
+	url = https://github.com/honza/vim-snippets
+[submodule "bundle/supertab"]
+	path = bundle/supertab
+	url = https://github.com/ervandew/supertab
