@@ -54,7 +54,7 @@
 	url = https://github.com/vim-airline/vim-airline-themes
 [submodule "bundle/vim-monokai"]
 	path = bundle/vim-monokai
-	url = https://github.com/crusoexia/vim-monokai
+	url = https://github.com/Decatek/vim-monokai
 [submodule "bundle/ctrlp"]
 	path = bundle/ctrlp
 	url = https://github.com/ctrlpvim/ctrlp.vim
