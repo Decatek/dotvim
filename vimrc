@@ -12,7 +12,8 @@ set noexpandtab
 set number
 set relativenumber
 set laststatus=2
-set t_Co=256
+set termguicolors
+" set t_Co=256
 set nobackup
 set noswapfile
 
@@ -25,9 +26,6 @@ source $HOME/.vim/startup/flagship.vim
 
 " Tagbar
 nmap <F12> :TagbarToggle<CR>
-
-" Treat all .handlebars files as html "
-au BufNewFile,BufRead *.handlebars set filetype=html
 
 " Syntastic
 let g:syntastic_always_populate_loc_list = 1
@@ -52,14 +50,18 @@ let g:UltiSnipsEditSplit="vertical"
 
 :autocmd BufNewFile,BufRead /project/* vaxe#ProjectHxml("/project/project.hxml")
 let g:vaxe_enable_airline_defaults = 0
-:command Bfly execute "!butterfly"
+:command! Bfly execute "!butterfly"
 
 " Color line at 80 chars
 augroup vimrc_autocmds
   autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929
   autocmd BufEnter * match OverLength /\%80v.*/
 augroup END
-
 set wrap
 set textwidth=80
 set colorcolumn=80
+
+" Show Syntax Group
+map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
+\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
+\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
